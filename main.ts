@@ -24,14 +24,14 @@ function q6 () {
     game.showLongText("What should you do after using plastic bottles?", DialogLayout.Bottom)
     story.showPlayerChoices("Recycle them", "Throw them away", "Buy more", "N/A")
     if (story.checkLastAnswer("Recycle them")) {
-        if (timer.value / 5 > 65) {
-            info.changeCountdownBy(Math.floor(75 - timer.value / 5))
-            game.showLongText("That is correct! +" + Math.floor(75 - timer.value / 5) + "s", DialogLayout.Bottom)
-            timer.value += Math.floor(75 - timer.value / 5) * 5
+        if (timer.value / 5 > 38) {
+            info.changeCountdownBy(Math.floor(45 - timer.value / 5))
+            game.showLongText("That is correct! +" + Math.floor(45 - timer.value / 5) + "s", DialogLayout.Bottom)
+            timer.value += Math.floor(45 - timer.value / 5) * 5
         } else {
-            info.changeCountdownBy(10)
-            game.showLongText("That is correct! +10s", DialogLayout.Bottom)
-            timer.value += 50
+            info.changeCountdownBy(7)
+            game.showLongText("That is correct! +7s", DialogLayout.Bottom)
+            timer.value += 35
         }
     } else {
         info.changeCountdownBy(-5)
@@ -43,14 +43,14 @@ function q7 () {
     game.showLongText("How can you save water while brushing your teeth?", DialogLayout.Bottom)
     story.showPlayerChoices("Leave the tap running", "Turn off the tap")
     if (story.checkLastAnswer("Turn off the tap")) {
-        if (timer.value / 5 > 65) {
-            info.changeCountdownBy(Math.floor(75 - timer.value / 5))
-            game.showLongText("That is correct! +" + Math.floor(75 - timer.value / 5) + "s", DialogLayout.Bottom)
-            timer.value += Math.floor(75 - timer.value / 5) * 5
+        if (timer.value / 5 > 38) {
+            info.changeCountdownBy(Math.floor(45 - timer.value / 5))
+            game.showLongText("That is correct! +" + Math.floor(45 - timer.value / 5) + "s", DialogLayout.Bottom)
+            timer.value += Math.floor(45 - timer.value / 5) * 5
         } else {
-            info.changeCountdownBy(10)
-            game.showLongText("That is correct! +10s", DialogLayout.Bottom)
-            timer.value += 50
+            info.changeCountdownBy(7)
+            game.showLongText("That is correct! +7s", DialogLayout.Bottom)
+            timer.value += 35
         }
     } else {
         info.changeCountdownBy(-5)
@@ -65,14 +65,14 @@ function q9 () {
     game.showLongText("How can you help protect the Earth?", DialogLayout.Bottom)
     story.showPlayerChoices("Use lots of plastic bags", "Use reusable bags")
     if (story.checkLastAnswer("Use reusable bags")) {
-        if (timer.value / 5 > 65) {
-            info.changeCountdownBy(Math.floor(75 - timer.value / 5))
-            game.showLongText("That is correct! +" + Math.floor(75 - timer.value / 5) + "s", DialogLayout.Bottom)
-            timer.value += Math.floor(75 - timer.value / 5) * 5
+        if (timer.value / 5 > 38) {
+            info.changeCountdownBy(Math.floor(45 - timer.value / 5))
+            game.showLongText("That is correct! +" + Math.floor(45 - timer.value / 5) + "s", DialogLayout.Bottom)
+            timer.value += Math.floor(45 - timer.value / 5) * 5
         } else {
-            info.changeCountdownBy(10)
-            game.showLongText("That is correct! +10s", DialogLayout.Bottom)
-            timer.value += 50
+            info.changeCountdownBy(7)
+            game.showLongText("That is correct! +7s", DialogLayout.Bottom)
+            timer.value += 35
         }
     } else {
         info.changeCountdownBy(-5)
@@ -84,14 +84,14 @@ function q5 () {
     game.showLongText("What should you do?", DialogLayout.Bottom)
     story.showPlayerChoices("Throw wrappers in the open", "Properly segregate waste", "Use plastic bags", "N/A")
     if (story.checkLastAnswer("Properly segregate waste")) {
-        if (timer.value / 5 > 65) {
-            info.changeCountdownBy(Math.floor(75 - timer.value / 5))
-            game.showLongText("That is correct! +" + Math.floor(75 - timer.value / 5) + "s", DialogLayout.Bottom)
-            timer.value += Math.floor(75 - timer.value / 5) * 5
+        if (timer.value / 5 > 38) {
+            info.changeCountdownBy(Math.floor(45 - timer.value / 5))
+            game.showLongText("That is correct! +" + Math.floor(45 - timer.value / 5) + "s", DialogLayout.Bottom)
+            timer.value += Math.floor(45 - timer.value / 5) * 5
         } else {
-            info.changeCountdownBy(10)
-            game.showLongText("That is correct! +10s", DialogLayout.Bottom)
-            timer.value += 50
+            info.changeCountdownBy(7)
+            game.showLongText("That is correct! +7s", DialogLayout.Bottom)
+            timer.value += 35
         }
     } else {
         info.changeCountdownBy(-5)
@@ -103,14 +103,14 @@ function q1 () {
     game.showLongText("What is global warming?", DialogLayout.Bottom)
     story.showPlayerChoices("A health issue", "The heating of the Earth", "Cutting of Trees", "N/A")
     if (story.checkLastAnswer("The heating of the Earth")) {
-        if (timer.value / 5 > 65) {
-            info.changeCountdownBy(Math.floor(75 - timer.value / 5))
-            game.showLongText("That is correct! +" + Math.floor(75 - timer.value / 5) + "s", DialogLayout.Bottom)
-            timer.value += Math.floor(75 - timer.value / 5) * 5
+        if (timer.value / 5 > 38) {
+            info.changeCountdownBy(Math.floor(45 - timer.value / 5))
+            game.showLongText("That is correct! +" + Math.floor(45 - timer.value / 5) + "s", DialogLayout.Bottom)
+            timer.value += Math.floor(45 - timer.value / 5) * 5
         } else {
-            info.changeCountdownBy(10)
-            game.showLongText("That is correct! +10s", DialogLayout.Bottom)
-            timer.value += 50
+            info.changeCountdownBy(7)
+            game.showLongText("That is correct! +7s", DialogLayout.Bottom)
+            timer.value += 35
         }
     } else {
         info.changeCountdownBy(-5)
@@ -122,14 +122,14 @@ function q2 () {
     game.showLongText("What is the wet waste?", DialogLayout.Bottom)
     story.showPlayerChoices("A plastic bottle", "A banana peel", "A metal can", "A wrapper")
     if (story.checkLastAnswer("A banana peel")) {
-        if (timer.value / 5 > 65) {
-            info.changeCountdownBy(Math.floor(75 - timer.value / 5))
-            game.showLongText("That is correct! +" + Math.floor(75 - timer.value / 5) + "s", DialogLayout.Bottom)
-            timer.value += Math.floor(75 - timer.value / 5) * 5
+        if (timer.value / 5 > 38) {
+            info.changeCountdownBy(Math.floor(45 - timer.value / 5))
+            game.showLongText("That is correct! +" + Math.floor(45 - timer.value / 5) + "s", DialogLayout.Bottom)
+            timer.value += Math.floor(45 - timer.value / 5) * 5
         } else {
-            info.changeCountdownBy(10)
-            game.showLongText("That is correct! +10s", DialogLayout.Bottom)
-            timer.value += 50
+            info.changeCountdownBy(7)
+            game.showLongText("That is correct! +7s", DialogLayout.Bottom)
+            timer.value += 35
         }
     } else {
         info.changeCountdownBy(-5)
@@ -153,14 +153,14 @@ function q8 () {
     game.showLongText("What should you do when you leave a room?", DialogLayout.Bottom)
     story.showPlayerChoices("Turn the light off", "Leave it on")
     if (story.checkLastAnswer("Turn the light off")) {
-        if (timer.value / 5 > 65) {
-            info.changeCountdownBy(Math.floor(75 - timer.value / 5))
-            game.showLongText("That is correct! +" + Math.floor(75 - timer.value / 5) + "s", DialogLayout.Bottom)
-            timer.value += Math.floor(75 - timer.value / 5) * 5
+        if (timer.value / 5 > 38) {
+            info.changeCountdownBy(Math.floor(45 - timer.value / 5))
+            game.showLongText("That is correct! +" + Math.floor(45 - timer.value / 5) + "s", DialogLayout.Bottom)
+            timer.value += Math.floor(45 - timer.value / 5) * 5
         } else {
-            info.changeCountdownBy(10)
-            game.showLongText("That is correct! +10s", DialogLayout.Bottom)
-            timer.value += 50
+            info.changeCountdownBy(7)
+            game.showLongText("That is correct! +7s", DialogLayout.Bottom)
+            timer.value += 35
         }
     } else {
         info.changeCountdownBy(-5)
@@ -198,14 +198,14 @@ function q4 () {
     game.showLongText("What should you not do to save the planet?", DialogLayout.Bottom)
     story.showPlayerChoices("Plant trees", "Buy a lot of plastic bottles", "Use paper bags")
     if (story.checkLastAnswer("Buy a lot of plastic bottles")) {
-        if (timer.value / 5 > 65) {
-            info.changeCountdownBy(Math.floor(75 - timer.value / 5))
-            game.showLongText("That is correct! +" + Math.floor(75 - timer.value / 5) + "s", DialogLayout.Bottom)
-            timer.value += Math.floor(75 - timer.value / 5) * 5
+        if (timer.value / 5 > 38) {
+            info.changeCountdownBy(Math.floor(45 - timer.value / 5))
+            game.showLongText("That is correct! +" + Math.floor(45 - timer.value / 5) + "s", DialogLayout.Bottom)
+            timer.value += Math.floor(45 - timer.value / 5) * 5
         } else {
-            info.changeCountdownBy(10)
-            game.showLongText("That is correct! +10s", DialogLayout.Bottom)
-            timer.value += 50
+            info.changeCountdownBy(7)
+            game.showLongText("That is correct! +7s", DialogLayout.Bottom)
+            timer.value += 35
         }
     } else {
         info.changeCountdownBy(-5)
@@ -217,14 +217,14 @@ function q3 () {
     game.showLongText("What is recyclable?", DialogLayout.Bottom)
     story.showPlayerChoices("A potato", "An orange peel", "A metal can", "A banana peel")
     if (story.checkLastAnswer("A metal can")) {
-        if (timer.value / 5 > 65) {
-            info.changeCountdownBy(Math.floor(75 - timer.value / 5))
-            game.showLongText("That is correct! +" + Math.floor(75 - timer.value / 5) + "s", DialogLayout.Bottom)
-            timer.value += Math.floor(75 - timer.value / 5) * 5
+        if (timer.value / 5 > 38) {
+            info.changeCountdownBy(Math.floor(45 - timer.value / 5))
+            game.showLongText("That is correct! +" + Math.floor(45 - timer.value / 5) + "s", DialogLayout.Bottom)
+            timer.value += Math.floor(45 - timer.value / 5) * 5
         } else {
-            info.changeCountdownBy(10)
-            game.showLongText("That is correct! +10s", DialogLayout.Bottom)
-            timer.value += 50
+            info.changeCountdownBy(7)
+            game.showLongText("That is correct! +7s", DialogLayout.Bottom)
+            timer.value += 35
         }
     } else {
         info.changeCountdownBy(-5)
@@ -434,13 +434,13 @@ animation.attachAnimation(ginger, walk_right)
 tiles.placeOnRandomTile(ginger, assets.tile`myTile0`)
 game.splash("Help Dr. Ginger", "Reach the forest!")
 game.showLongText("Make the right choices along the way to win!", DialogLayout.Bottom)
-info.startCountdown(75)
+info.startCountdown(45)
 timer = statusbars.create(40, 4, StatusBarKind.time)
 timer.setColor(3, 1)
 timer.positionDirection(CollisionDirection.Top)
-timer.max = 375
+timer.max = 225
 timer.setOffsetPadding(1, 11)
-timer.value = 375
+timer.value = 225
 game.onUpdateInterval(200, function () {
     if (controller.dx() == 0 && controller.dy() == 0) {
         animation.stopAnimation(animation.AnimationTypes.All, ginger)
